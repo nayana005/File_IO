@@ -11,7 +11,7 @@ public class EmployeePayrollServiceTest {
     public void givenFileShouldMatchEmployeeCount() throws IOException {
         EmployeePayroll employeePayrollData1 = new EmployeePayroll(1,"Nayana", 50000);
         EmployeePayroll employeePayrollData2 = new EmployeePayroll(2,"Chaithra", 30000);
-        EmployeePayroll employeePayrollData3 = new EmployeePayroll(3,"Monisha", 40000);
+        EmployeePayroll employeePayrollData3 = new EmployeePayroll(3,"Monii", 40000);
 
         List<EmployeePayroll> employeePayrollDataList = new ArrayList<>();
         employeePayrollDataList.add(employeePayrollData1);
