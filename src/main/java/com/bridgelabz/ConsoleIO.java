@@ -8,11 +8,11 @@ public class ConsoleIO implements PayrollService {
 
 	@Override
 	public void read() {
-		System.out.println("Enter employee id");
+		System.out.println("Enter Employee Id");
 		int id = scanner.nextInt();
-		System.out.println("Enter employee name");
+		System.out.println("Enter Employee Name");
 		String name = scanner.next();
-		System.out.println("Enter employee salary");
+		System.out.println("Enter Employee Salary");
 		long salary = scanner.nextLong();
 		EmployeePayroll employeePayroll= new EmployeePayroll(id, name, salary);
 		System.out.println(employeePayroll);
